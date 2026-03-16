@@ -9,7 +9,7 @@ module.exports = [
   },
   js.configs.recommended,
   {
-    files: ['App.js', 'components/**/*.{js,jsx}'],
+    files: ['App.js', 'components/**/*.{js,jsx}', 'src/**/*.{js,jsx}'],
     languageOptions: {
       parser: babelParser,
       parserOptions: {

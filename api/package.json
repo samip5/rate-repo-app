@@ -33,12 +33,16 @@
     "url": "https://github.com/Kaltsoon/rate-repository-api/issues"
   },
   "homepage": "https://github.com/Kaltsoon/rate-repository-api#readme",
+  "engines": {
+    "node": ">=20 <21",
+    "npm": ">=10 <11"
+  },
   "dependencies": {
-    "@koa/cors": "^3.0.0",
+    "@koa/cors": "5.0.0",
     "apollo-server": "^3.3.0",
     "apollo-server-core": "^3.3.0",
     "apollo-server-koa": "^3.3.0",
-    "axios": "^0.24.0",
+    "axios": "1.13.5",
     "bcrypt": "^5.0.0",
     "dataloader": "^2.0.0",
     "date-fns": "^2.9.0",
@@ -46,7 +50,7 @@
     "es6-error": "^4.1.1",
     "esm": "^3.2.25",
     "graphql": "^16.2.0",
-    "jsonwebtoken": "^9.0.2",
+    "jsonwebtoken": "9.0.3",
     "knex": "^3.1.0",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
